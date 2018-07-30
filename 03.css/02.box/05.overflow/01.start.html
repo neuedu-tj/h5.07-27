@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .container {
+            height: 400px;
+            width: 200px;
+            border: 1px solid crimson;
+
+            /*overflow: hidden;*/
+            overflow-y: scroll;
+        }
+
+
+        .sub {
+            height: 800px;
+            width: 100px;
+            background-image: linear-gradient(to top , salmon , cornflowerblue);
+
+
+            margin: 0 auto; /* 子层相对于父层居中 */
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="sub"></div>
+</div>
+
+</body>
+</html>
