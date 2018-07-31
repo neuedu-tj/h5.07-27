@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+
+        @keyframes play {
+
+            100% {
+                transform: rotate(360deg);
+            }
+
+        }
+
+
+        .container {
+            height: 200px;
+            width: 200px;
+            border: 1px solid crimson;
+
+
+            margin: 140px;
+
+            overflow: hidden;
+        }
+
+        .sub {
+            height: 200px;
+            width: 200px;
+
+            transition: all 2s linear;
+
+            background-image: url(../resources/img/paris/img-1.jpg);
+            background-position: center;
+            background-size: cover;
+
+            border-radius: 50%;
+
+        }
+
+        .sub:hover {
+
+             animation: play 4s linear infinite;
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="sub"></div>
+    </div>
+
+</body>
+</html>

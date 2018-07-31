@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        @keyframes move {
+            0% {
+
+            }
+
+            25% {
+                transform: translate(50px , 0px);
+                background-color: #9c27b0;
+            }
+
+            50% {
+                transform: translate(50px , 50px);
+                background-color: crimson;
+            }
+
+            75% {
+                transform: translate(0px , 50px);
+                background-color: orangered;
+            }
+
+            100% {
+                transform: translate(0px , 0px);
+                border-radius: 50%;
+            }
+        }
+
+
+
+        .container {
+            height: 200px;
+            width: 200px;
+            border: 1px solid crimson;
+
+            transition: all 1s linear;
+        }
+
+        .container:hover {
+            animation: move 4s linear reverse   ;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <div class="container">
+
+    </div>
+
+</body>
+</html>
