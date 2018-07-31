@@ -20,7 +20,7 @@
         .container {
             display:  inline-block;
 
-            height: 350px;
+            height: 310px;
             width: 240px;
 
             margin: 10px;
@@ -31,6 +31,12 @@
 
             overflow: hidden;
 
+            position: relative;
+
+        }
+
+        .container:hover .buy {
+            top : 270px;
         }
 
 
@@ -67,12 +73,36 @@
 
         .buy {
             height: 40px;
+            width: 100%;
             background-color: #9c27b0;
 
             text-align: center;
             font-size: 22px;
             color: white;
             line-height: 40px;
+
+            position: absolute;
+            top : 310px;
+
+            transition: all .2s ease-in-out;
+        }
+
+        .sale {
+            height: 40px;
+            width: 100%;
+            background-color: crimson;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            line-height: 40px;
+
+            transform: rotate(40deg);
+
+            position: absolute;
+
+            right: -70px;
+            top: 10px;
+            box-shadow: 0px 0px 4px #212121;
         }
 
 
@@ -83,6 +113,8 @@
 
 
     <div class="container ">
+
+        <div class="sale">Sale</div>
 
         <div class="img " style="background-image: url(../../resources/img/auto/tesla-roadster-2018-01.jpg);"></div>
 
@@ -98,6 +130,8 @@
     </div>
 
     <div class="container ">
+
+        <div class="sale">Sale</div>
 
         <div class="img " style="background-image: url(../../resources/img/auto/porsher-panamera-02.jpg);"></div>
 
