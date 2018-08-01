@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: 微软雅黑;
+        }
+
+        #container {
+
+            overflow: scroll;
+            height: 500px;
+            width: 300px;
+
+            margin: 40px 0px 0px 300px;
+
+            background-size: cover;
+            background-position: center;
+            background-color: gainsboro;
+            /*background-image: url(../../resources/img/auto/tesla-roadster-2018-01.jpg);*/
+
+            box-shadow: 0px 0px 1px grey    ;
+        }
+
+        #mask {
+            min-height: 100%;
+            width: 100%;
+            background-color: rgba(255 , 255 , 255 , .2);
+
+            padding: 10px 0px 10px 0px;
+
+        }
+
+        .msg-box {
+            max-width: 100%;
+            min-height: 20px;
+            color: #313131;
+            margin: 0px 10px 10px 10px;
+        }
+
+        .msg-box:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .img {
+            height: 34px;
+            width: 34px;
+        }
+
+        .img-center {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .msg-text-left {
+            margin: 4px 0px 4px 10px;
+            background-color: white;
+        }
+        .msg-text-right {
+            margin: 4px 10px 4px 0px;
+            background-color: greenyellow;
+        }
+
+        .msg-text {
+            max-width: 60%;
+
+            line-height: 20px;
+            border-radius: 4px;
+            font-size: 14px;
+            padding: 3px 4px 3px 4px;
+        }
+
+        .msg-img {
+        }
+
+        .msg-img img {
+            max-height: 140px;
+            max-width: 140px;
+            border-radius: 4px;
+        }
+
+        .msg-img img:active {
+
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .msg-img-right {
+            margin: 4px 10px 4px 0px;
+        }
+
+        .msg-img-left {
+            margin: 4px 0px 4px 10px;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="mask">
+
+            <div class="msg-box">
+
+                <div class="img img-center left" style="background-image: url(../../resources/img/dev/bootstrap.png)"></div>
+
+                <div class="msg-text msg-text-left left">
+                    Hello , I'm BootStrap , work on layout config
+                </div>
+
+            </div>
+
+
+
+            <div class="msg-box">
+
+                <div class="img img-center right" style="background-image: url(../../resources/img/dev/redis.png)"></div>
+
+                <div class="msg-text msg-text-right right">
+                    i know you , maybe i can help you to storage data
+                </div>
+
+            </div>
+
+
+            <div class="msg-box">
+
+                <div class="img img-center left" style="background-image: url(../../resources/img/dev/bootstrap.png)"></div>
+
+                <div class="msg-text msg-text-left left">
+                    All right , tell me your github account
+                </div>
+
+            </div>
+
+            <div class="msg-box">
+
+                <div class="img img-center left" style="background-image: url(../../resources/img/dev/bootstrap.png)"></div>
+
+                <div class="msg-text msg-text-left left">
+                    : )
+                </div>
+
+            </div>
+
+
+            <div class="msg-box">
+
+                <div class="img img-center right" style="background-image: url(../../resources/img/dev/redis.png)"></div>
+
+                <div class="msg-img msg-img-right right" >
+                    <img src="../../resources/img/paris/img-5.jpg" alt="" >
+                </div>
+
+            </div>
+
+            <div class="msg-box">
+
+                <div class="img img-center left" style="background-image: url(../../resources/img/dev/bootstrap.png)"></div>
+
+                <div class="msg-img msg-img-left  left">
+                    <img src="../../resources/img/large-img.jpg" alt="" >
+                </div>
+
+            </div>
+
+
+
+            <div class="msg-box">
+
+                <div class="img img-center right" style="background-image: url(../../resources/img/dev/redis.png)"></div>
+
+                <div class="msg-text msg-text-right right">
+                    stop , your image from to china ?
+                </div>
+
+            </div>
+
+
+            <div class="msg-box">
+
+                <div class="img img-center left" style="background-image: url(../../resources/img/dev/bootstrap.png)"></div>
+
+                <div class="msg-text msg-text-left left">
+                    neusoft ?
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>
