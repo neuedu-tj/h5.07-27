@@ -1,0 +1,18 @@
+
+
+#d1 {
+    color: red;
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+
+    /*display: none;*/
+    visibility: visible;
+}
+
+#d2 {
+    color: red;
+    height: 100px;
+    width: 100px;
+    background-color: #9c27b0;
+}
