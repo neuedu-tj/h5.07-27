@@ -3,10 +3,6 @@
 
 * {margin: 0; padding: 0;}
 
-
-a{color: #2fa0ec;text-decoration: none;outline: yellow;}
-a:hover,a:focus{color:#74777b;}
-
 #container{
     margin: 0 auto;
     text-align: center;
@@ -90,7 +86,9 @@ h2 {
 
     font: bold 12px/48px Montserrat; display: block;
 
-    opacity: 0; transform: translateX(50px); transition: all 0.4s;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.4s;
 
 }
 
