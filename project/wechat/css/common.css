@@ -18,6 +18,19 @@
     align-items: center;
 }
 
+
+
 ::-webkit-scrollbar {
     display: none;
+}
+
+
+#dynamic {
+
+    width: 100%;
+    flex: 1;
+    background-color: whitesmoke;
+
+    overflow: scroll;
+
 }
