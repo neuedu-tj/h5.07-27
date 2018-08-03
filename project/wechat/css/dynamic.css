@@ -3,6 +3,119 @@
 
     width: 100%;
     flex: 1;
-    background-color: lightcoral;
+    background-color: whitesmoke;
+
+    overflow: scroll;
 
 }
+
+#search-area {
+
+    height: 40px;
+    background-color: whitesmoke;
+}
+
+#search {
+    height: 30px;
+    width: 96%;
+    background-color: white;
+    border-radius: 4px;
+    /*box-shadow: 0px 0px 1px gray;*/
+    color: #8a8a8a;
+    font-size: 16px;
+
+    position: relative;
+}
+
+#search-audio {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0px;
+
+    background-image: url(../img/small/audio.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .7;
+}
+
+.chat-item {
+    height: 63px;
+    width: 96%;
+    /*background-color: yellowgreen;*/
+
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+
+    margin: 0 auto;
+
+    border-bottom: 1px solid darkgrey;
+
+}
+
+
+.item-left {
+    height: 50px;
+    width: 50px;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.item-right {
+    margin-left: 10px;
+    height: 50px;
+    flex: 1;
+}
+
+.content-top {
+    height: 30px;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+}
+
+.nickname {
+
+    height: 30px;
+    flex: 1;
+    color: #313131;
+    font-size: 18px;
+}
+.time {
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+    color: gray;
+    text-align: right;
+}
+
+
+.content-bottom {
+
+    display: flex;
+    justify-content: flex-end;
+}
+.content-text {
+    font-size: 14px;
+    color: #8a8a8a;
+    height: 20px;
+    flex: 1;
+}
+.content-audio {
+    font-size: 14px;
+    color: crimson;
+    height: 20px;
+    flex: 1;
+}
+.silence {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
