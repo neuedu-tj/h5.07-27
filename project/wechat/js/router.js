@@ -13,6 +13,10 @@ $(function(){
 
         $("#dynamic").load($(this).data("page"))
 
+        $(".menu-item").childrem("img").attr("src" , $(this).data("normal"))
+
+        $(this).childrem("img").attr("src" , $(this).data("press"))
+
     })
 
 
