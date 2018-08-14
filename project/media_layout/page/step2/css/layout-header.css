@@ -1,0 +1,80 @@
+
+/* 导航栏部分 : 开始 */
+
+.nav {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row nowrap;
+}
+/* 菜单 :开始 */
+#items {
+	min-width: 320px;
+	height: 40px;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row nowrap;
+}
+#items div {
+	width: 80px;
+	color: white;
+	border-right: whitesmoke 1px solid;
+	text-align: center;
+	line-height: 36px;
+	padding: 2px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#items div:nth-child(4) {
+	border-right: none;
+}
+
+#items div:hover {
+	font-weight: 500;
+	background-color: #0275D8
+}
+/* 菜单 :结束 */
+
+/*  */
+#search {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+/* 当行右侧 搜索区域 : 开始 */
+#search-text {
+	height: 20px;
+	border-radius:10px;
+	border: none;
+	background-color: whitesmoke;
+	text-indent: 10px;
+	font-weight: 200; 
+	font-size: 12px;
+	color: gray;
+}
+#search-text:focus { /* 获取焦点 */
+	width: 200px;
+}
+
+#search-button {
+	margin-left: 10px;
+	width: 60px; height: 20px;
+	background-color: darkturquoise;
+
+	border: none;
+	border-radius: 10px;
+	color: white;
+	transition: all .1s ease-in-out ;
+	font-size: 12px;
+}
+#search-button:hover {
+	background-color: lightgreen;
+	color: gray;
+}
+#search-button:active {
+	box-shadow: 0px 4px 4px grey inset;
+}
+/* 当行右侧 搜索区域 : 结束 */
+
+

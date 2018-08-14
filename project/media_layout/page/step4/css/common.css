@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+.font-title {
+	color: grey;
+	font-weight: 400;
+	font-size: 16px;
+	padding: 2px;
+}
+
+.font-detail {
+	color: gray;
+	font-weight: 100;
+	font-size: 14px;
+	padding: 2px;
+}
+
+.font-menu {
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+	padding: 2px;
+}
+.font-menu div:hover {
+	background-color: #00CED1;
+}
+
+.font-name{
+	color: #0275D8;
+	font-weight: 400;
+	font-size: 16px;
+	padding: 2px;
+}
+
+
+
+.has-border {
+	border: 1px darkgrey solid;
+}
+
+.row-nowrap {
+	-webkit-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+}
+
+.base-space {
+	margin: 5px;
+}
+
+.border-bottom {
+	box-shadow: 0px 0px 20px whitesmoke;
+	border-radius: 0px 0px 4px 4px;
+}

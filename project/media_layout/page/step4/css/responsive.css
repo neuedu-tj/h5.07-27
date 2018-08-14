@@ -1,0 +1,61 @@
+@media (max-width: 700px) {
+				
+				::-webkit-scrollbar {
+					display: none;
+				}
+				
+				#container {
+					width: 100%;
+					min-width: 320px;
+				}
+				#header {
+					width: 100%;
+				}
+				#nav{
+					display: none;
+				}
+				#search {
+					display: none;
+				}
+				#mobile-nav {
+					display: block;
+				}
+				
+				
+				#sub-container {
+					width: 100%;
+					-webkit-flex-flow: column nowrap;
+					flex-flow: column nowrap;
+				}
+				
+				#d1 {
+					order: 1;
+					width: 100%;
+					
+				}
+				#d2 {
+					order: 3;
+					width: 100%;
+				}
+				#d3 {
+					order: 2;
+					width: 100%;
+				}
+				
+				#self-backgroud {
+					background-size: cover;
+					
+				}
+				#photo {
+					position: relative;
+					top: -30px;
+					left: 0%;
+					
+				}
+				
+				#self-info div {
+					height: 20px;
+				}
+				
+				
+			}

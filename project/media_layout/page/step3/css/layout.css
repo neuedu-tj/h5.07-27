@@ -1,0 +1,55 @@
+#container {
+	width: 100%;
+	background-color: ghostwhite;
+}
+
+
+#header {
+	height: 40px;
+	background-color: #3097d1;
+	padding-left:10px ;padding-right:10px ;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+
+
+#sub-container {
+	width: auto;
+	min-width: 650px;
+
+	min-height: 900px;
+	display: flex;
+	display: -webkit-flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+/* 左 , 中 , 右 : 开始 */
+#d1 {
+
+	min-width: 200px;
+	width: 200px;
+	height: 300px;
+	position: relative;
+	background-color: #fff;
+}
+
+#d2 {
+	width: 600px;
+	min-width: 400px;
+	min-height: 800px;
+	background-color: #fff;
+}
+
+#d3 {
+	min-width: 150px;
+	height: 200px;
+	background-color: #fff;
+}
+/* 左 , 中 , 右 : 结束 */
+
+
+
+

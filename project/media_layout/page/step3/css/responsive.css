@@ -1,0 +1,50 @@
+@media  (max-width: 650px) {
+				
+				#container {
+					width: 100%;
+				}
+				#header {
+					width: 100%;
+				}
+				#nav{
+					display: none;
+				}
+				#search {
+					display: none;
+				}
+				
+				#sub-container {
+					min-width: 100%;
+					-webkit-flex-flow: column nowrap;
+					flex-flow: column nowrap;
+				}
+				
+				#d1 {
+					order: 1;
+					min-width: 100%;
+					
+				}
+				#d2 {
+					order: 3;
+					min-width: 100%;
+				}
+				#d3 {
+					order: 2;
+					min-width: 100%;
+				}
+				
+				#self-backgroud {
+					background-size: cover;
+			
+				}
+				#photo {
+					position: relative;
+					top: -30px;
+					left: 0%;
+					
+				}
+				
+				#self-info div {
+					height: 20px;
+				}
+			}

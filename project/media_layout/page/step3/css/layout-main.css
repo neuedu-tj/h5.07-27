@@ -1,0 +1,147 @@
+
+hr {
+	
+	opacity: .2;
+	
+}
+
+#publish {
+	padding: 0px 10px 0px 10px;
+	height: 200px;
+	/*background-image: linear-gradient(to top , #F8F8FF , #B0E0E6 );*/ 
+	border-bottom: 1px rgba(220,220,220, .7) solid ;
+}
+
+#publish-message {
+	margin-top: 4px; padding: 6px;
+	margin-left: auto;margin-right: auto;
+	height: 120px; width: 96%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px rgb(220,220,220) inset;
+	/*border: 1px aquamarine solid;*/
+}
+#publish-message div{
+	height: 100px; width: 96%;
+	margin: auto;
+}
+
+#publish-component {
+	margin-left: auto;margin-right: auto;margin-top: 8px; 
+	width: 96%; height: 50px; 
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end; 
+	align-items: center;
+}
+
+#publish-component div {
+	
+}
+#publish-component div img {
+	opacity: .7;
+	margin-right: 16px;
+	height: 14px; width: 16px;
+}
+#publish-component div img:hover {
+	opacity: 1;
+
+}
+
+#send {
+	height: 26px; width: 100px;border-radius: 2px;
+	background-color: rgb(135,206,255);
+	text-align: center;
+	font-size: 14px; font-weight: 300;
+	color: rgb(105,105,105);
+	line-height: 26px;
+	
+}
+
+#send:hover {
+	background-color: #3097d1;
+}
+
+
+#messages {
+	
+}
+
+.message {
+	margin: 0 auto;
+	width: 94%;
+	min-height: 120px;
+	
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+	display: flex;
+	flex-flow: row nowrap;
+	
+}
+
+.message-photo{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	
+	padding-top: 4px;
+	width: 60px;
+	
+}
+.message-photo img{
+	height: 42px; width: 42px;
+	border-radius: 50%;
+	
+}
+
+.message-content {
+	/*border: 1px solid red;*/
+	width: 100%;
+	padding-top: 2px;
+	padding-left: 10px;
+	border-left: 2px solid rgb(173,224,230);
+	background-color: rgb(240,248,255);
+	border-radius: 0px 6px 6px 0px;
+	transition: all .2s ease-in-out;
+}
+
+.message-content:hover{
+
+	background-color: rgb(176,224,230);
+	box-shadow: 0px 0px 2px silver;
+
+}
+
+.title {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding-right: 10px;
+}
+
+.message-feedback {
+	
+}
+
+.content{
+	padding-top: 5px;
+	padding-left: 2px;
+	min-height: 70px;
+}
+.control {
+	width: 100%;
+	text-align: right;
+}
+
+.control img {
+	opacity: .7;
+	width: 14px;height:11px;
+	margin-right: 10px;
+}
+
+
+.line {
+	height: 1px; width: 86%;
+	border-bottom: 1px rgba(220,220,220, .7) solid ;
+	float: right;
+}

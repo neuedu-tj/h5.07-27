@@ -1,0 +1,52 @@
+/*个人信息 : 开始*/
+#personal {
+	height: 300px;
+}
+
+#self-backgroud {
+	background-image: url(../../img/iceland.jpg);
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#self-info {
+	background-color: #FFF;
+	margin-top: 20px;
+}
+
+#self-info div {
+	height: 40px;
+	text-align: center;
+}
+
+#photo {
+	margin: 0 auto;
+	position: absolute; /*  必须写 position 才能动 */
+	left: 36%;
+	top: 15%;
+	
+	height: 60px;
+	width: 60px;
+	border-radius: 50% ;
+	
+	background-size: cover;
+	background-position: center;
+	background-image: url(../../img/touxiang.png);
+	box-shadow: 0px 2px 5px #999999;
+}
+
+#personal-freind {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+#personal-freind div {
+	width: 80px;
+	margin: 10px;
+	text-align: center;
+}
+
+/*个人信息 : 结束 */
